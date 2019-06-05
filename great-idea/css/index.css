@@ -214,12 +214,13 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
   margin-right: 34px;
+  flex-direction: row;
 }
 
 .main-content .top-content .text-content:last-child {
@@ -233,11 +234,12 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  flex-direction: row;
   margin-right: 12px;
 }
 
