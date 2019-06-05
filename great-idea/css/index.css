@@ -262,3 +262,24 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Start of service.html css edits */
+
+.main_info {
+
+}
+
+.main_info .main-text1 {
+
+  display: flex;
+}
+
+.main_info .main-text1 button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
