@@ -267,12 +267,19 @@ footer {
 
 .main_info {
 
+  display: flex;
+
 }
 
 .main_info .main-text1 {
 
-  display: flex;
+  flex-direction: row;
 }
+
+/* .main_info .main-text1 .textbox1{
+
+  flex-direction: column;
+} */
 
 .main_info .main-text1 button {
   background: white;
