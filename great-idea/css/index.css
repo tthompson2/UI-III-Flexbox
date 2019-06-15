@@ -269,6 +269,18 @@ footer {
 .main_info {
   display: flex;
   justify-content: space-between;
+  
+}
+
+.next_info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 380px;
+  height: 400px;
+  margin-top: 15px;
+  margin-left: 40px;
+  background-color: grey;
+  justify-content: center;
 
 }
 
@@ -280,24 +292,18 @@ footer {
   background-color: grey;
   justify-content: center;
   border: 1px solid red; */
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
 }
 
 .main_info .main-text2 {
   border: 1px solid blue;
-  width: 350px;
-  height: 200px;
-  margin-top: 15px;
-  background-color: grey;
-  justify-content: center;
+  
 }
 
 .main_info .main-text3 {
   border: 1px solid green;
-  width: 350px;
-  height: 200px;
-  margin-top: 15px;
-  background-color: grey;
-  justify-content: center;
 }
 
 .main_info .main-text4 {
@@ -340,4 +346,7 @@ footer {
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
+}
+h2 {
+  font-size: 25px;
 }
